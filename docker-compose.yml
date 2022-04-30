@@ -1,0 +1,12 @@
+version: "3"
+services:
+  nodejs:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: simple-app:v1
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=test
+    ports:
+      - "80:80"
