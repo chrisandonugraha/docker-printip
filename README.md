@@ -1,1 +1,3 @@
-# docker-printIP
+# Docker-AppprintIP
+
+Intructions use commands.txt
